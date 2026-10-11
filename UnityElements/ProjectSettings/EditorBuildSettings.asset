@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/VideoClockAndTrigger.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/AutomaticDoorAndFog.unity
+    guid: c3fb41eea78939b49a7171c21c1356f5
+  - enabled: 1
+    path: Assets/Scenes/MirrorAndMinimap.unity
+    guid: 035c925631b1659cba2e7d11c65bf23b
+  - enabled: 1
+    path: Assets/Scenes/Mixamo.unity
+    guid: 47e5a5aeb25b0ab9798815d0ea9ff293
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
