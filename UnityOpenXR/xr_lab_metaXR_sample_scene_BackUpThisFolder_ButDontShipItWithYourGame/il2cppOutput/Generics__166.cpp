@@ -25699,7 +25699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_mE9515333
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 104336
+// Method Definition Index: 104338
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LayerInfo_GetHashCode_m7EE7F3F7FC049CD7BC5FEC25E34E9AD2C943403A_inline (LayerInfo_t6690ECA96F960E4C9998DA5D95D5CCFA3BD96E17* __this, const RuntimeMethod* method) 
 {
 	{

@@ -7,6 +7,9 @@
 
 
 
+extern void LightController_ToggleLight_m1F25BF68795A433DDDA2949D8E7ACDB6850AE375 (void);
+extern void LightController_SetIntensity_m4E319987124F997B97817AED7CB65E46E0439681 (void);
+extern void LightController__ctor_mC845B5E91DAD3743B81270298BFBB1F57AE7A6F9 (void);
 extern void AnchorVisuals_Start_m84A5BBC02FFBE8BF40D0A3E2D7B36D1FD701DED6 (void);
 extern void AnchorVisuals_Update_mD2CF52D5A41427FB49A899A2478D687B470A7EDE (void);
 extern void AnchorVisuals_OnAnchorEnter_mE9B77E39B80360DFB9B413B1749CF416F2486E3C (void);
@@ -149,8 +152,11 @@ extern void XRPokeFollowAffordanceFill_OnTransformTweenableVariableUpdated_m8B3C
 extern void XRPokeFollowAffordanceFill_OnPokeStrengthChanged_m480B681A9BE7B6C71724392FC3368A029EA4CED6 (void);
 extern void XRPokeFollowAffordanceFill_OnPokeStateDataUpdated_m6233708D9CEEA9A7920B821FDBD306F4D7CBFAE6 (void);
 extern void XRPokeFollowAffordanceFill__ctor_mAED1746F6E90C5676967671BFBB11E3B7C6B1E98 (void);
-static Il2CppMethodPointer s_methodPointers[142] = 
+static Il2CppMethodPointer s_methodPointers[145] = 
 {
+	LightController_ToggleLight_m1F25BF68795A433DDDA2949D8E7ACDB6850AE375,
+	LightController_SetIntensity_m4E319987124F997B97817AED7CB65E46E0439681,
+	LightController__ctor_mC845B5E91DAD3743B81270298BFBB1F57AE7A6F9,
 	AnchorVisuals_Start_m84A5BBC02FFBE8BF40D0A3E2D7B36D1FD701DED6,
 	AnchorVisuals_Update_mD2CF52D5A41427FB49A899A2478D687B470A7EDE,
 	AnchorVisuals_OnAnchorEnter_mE9B77E39B80360DFB9B413B1749CF416F2486E3C,
@@ -300,13 +306,16 @@ extern void TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F03
 extern void TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x06000072, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
-	{ 0x06000073, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
-	{ 0x06000074, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
-	{ 0x06000075, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
+	{ 0x06000075, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
+	{ 0x06000076, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
+	{ 0x06000077, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
+	{ 0x06000078, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[142] = 
+static const int32_t s_InvokerIndices[145] = 
 {
+	22761,
+	17356,
+	22761,
 	22761,
 	22761,
 	22761,
@@ -454,7 +463,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	142,
+	145,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,
