@@ -104956,18 +104956,6 @@ void RuntimeInvoker_TruePose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_Int32_t68
 	*((Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)returnAddress) = ((Func)methodPointer)(obj, *((int32_t*)args[0]), *((Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)args[1]), *((float*)args[2]), methodMetadata);
 }
 
-void RuntimeInvoker_TruePoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args, void* returnAddress)
-{
-	typedef PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2 (*Func)(void* obj, int32_t p1, int32_t p2, uint8_t p3, const RuntimeMethod* method);
-	*((PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2*)returnAddress) = ((Func)methodPointer)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), *((uint8_t*)args[2]), methodMetadata);
-}
-
-void RuntimeInvoker_TruePoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args, void* returnAddress)
-{
-	typedef PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2 (*Func)(void* obj, int32_t p1, PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2 p2, RuntimeObject* p3, const RuntimeMethod* method);
-	*((PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2*)returnAddress) = ((Func)methodPointer)(obj, *((int32_t*)args[0]), *((PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2*)args[1]), (RuntimeObject*)args[2], methodMetadata);
-}
-
 void RuntimeInvoker_TrueQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_QuaternionCompositeComparer_t021E6DC8E7FE8C9C8CC75C2512807E2F9ACA4E33 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args, void* returnAddress)
 {
 	typedef Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 (*Func)(void* obj, int32_t p1, void* p2, QuaternionCompositeComparer_t021E6DC8E7FE8C9C8CC75C2512807E2F9ACA4E33 p3, const RuntimeMethod* method);
@@ -285526,12 +285514,6 @@ void RuntimeInvoker_FalseIl2CppFullySharedGenericAny_VoidU2A_t104EAEFBD2D237A8C2
 	((Func)methodPointer)((void*)args[0], *((int32_t*)args[1]), (Il2CppFullySharedGenericAny*)returnAddress, methodMetadata);
 }
 
-void RuntimeInvoker_FalseIl2CppFullySharedGenericAny_RuntimeObject_Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args, void* returnAddress)
-{
-	typedef void (*Func)(RuntimeObject* p1, uint8_t p2, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method);
-	((Func)methodPointer)((RuntimeObject*)args[0], *((uint8_t*)args[1]), (Il2CppFullySharedGenericAny*)returnAddress, methodMetadata);
-}
-
 void RuntimeInvoker_FalseIl2CppFullySharedGenericAny_RuntimeObject_InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args, void* returnAddress)
 {
 	typedef void (*Func)(RuntimeObject* p1, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 p2, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method);
@@ -317051,7 +317033,7 @@ void RuntimeInvoker_FalseBuilder_tCBCB06F4A2C922C71431C0418A7EA386E2383588 (Il2C
 }
 
 IL2CPP_EXTERN_C const InvokerMethod g_Il2CppInvokerPointers[];
-const InvokerMethod g_Il2CppInvokerPointers[37578] = 
+const InvokerMethod g_Il2CppInvokerPointers[37575] = 
 {
 	RuntimeInvoker_F57671A1A271362DE5576D4120520430DEAD6EAE,
 	RuntimeInvoker_7C7502B48E2131BE322E25A4A5423517C2046CC6,
@@ -320496,8 +320478,6 @@ const InvokerMethod g_Il2CppInvokerPointers[37578] =
 	RuntimeInvoker_TruePose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_RuntimeObject,
 	RuntimeInvoker_TruePose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C,
 	RuntimeInvoker_TruePose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C,
-	RuntimeInvoker_TruePoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3,
-	RuntimeInvoker_TruePoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_RuntimeObject,
 	RuntimeInvoker_TrueQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_QuaternionCompositeComparer_t021E6DC8E7FE8C9C8CC75C2512807E2F9ACA4E33,
 	RuntimeInvoker_TrueQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3,
 	RuntimeInvoker_TrueQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_RuntimeObject,
@@ -349401,7 +349381,6 @@ const InvokerMethod g_Il2CppInvokerPointers[37578] =
 	RuntimeInvoker_FalseIl2CppFullySharedGenericAny_UnsafeList_1_t3A26A222433F7993EC942046A500D6EA3DCB97E6_Il2CppFullySharedGenericAny,
 	RuntimeInvoker_FalseIl2CppFullySharedGenericAny_VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_ReadOnlySpan_1_t162127D45FD7C773C67C344292D10A1AE8D77AF2,
 	RuntimeInvoker_FalseIl2CppFullySharedGenericAny_VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C,
-	RuntimeInvoker_FalseIl2CppFullySharedGenericAny_RuntimeObject_Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3,
 	RuntimeInvoker_FalseIl2CppFullySharedGenericAny_RuntimeObject_InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0,
 	RuntimeInvoker_FalseIl2CppFullySharedGenericAny_RuntimeObject_Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C,
 	RuntimeInvoker_FalseIl2CppFullySharedGenericAny_RuntimeObject_RuntimeObject,
