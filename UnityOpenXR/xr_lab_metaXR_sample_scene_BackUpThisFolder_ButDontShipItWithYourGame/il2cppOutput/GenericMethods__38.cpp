@@ -9919,7 +9919,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 113777
+// Method Definition Index: 113780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_DestroyObject_TisRuntimeObject_m2207A4159EE2A911CF75DC9651047A8BAFB2D898_gshared (RuntimeObject** ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
