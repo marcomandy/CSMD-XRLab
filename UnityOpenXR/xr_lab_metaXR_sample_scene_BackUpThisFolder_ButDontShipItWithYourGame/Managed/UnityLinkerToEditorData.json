@@ -92,6 +92,14 @@
             "icon": null
           },
           {
+            "name": "ParentConstraint",
+            "scenes": [
+              "Assets/Scenes/MetaXRSampleScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "PositionConstraint",
             "scenes": [
               "Assets/Scenes/MetaXRSampleScene.unity"
